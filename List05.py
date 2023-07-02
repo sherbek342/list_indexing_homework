@@ -7,4 +7,6 @@ def main(list1,i):
     Returns:
         list: return answer
     """
-    return
+
+    return list1[i]
+print(main(list1=['2', 'as' , 'dw'],i=1))

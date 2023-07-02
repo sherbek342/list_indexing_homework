@@ -6,4 +6,6 @@ def main():
     Returns:
         list: return answer
     """
-    return
+    list = []
+    return list
+print(main())
