@@ -6,4 +6,11 @@ def main(list_num):
     Returns:
         int: return answer
     """
-    return
+    n = 0
+    result = list_num[0]
+    while n < len(list_num):
+        if result < list_num[n]:
+            result = list_num[n]
+        n += 1
+    return result
+print(main(list_num=[12, 2, 5, 22, 7, 9, 1]))
