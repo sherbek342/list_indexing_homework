@@ -9,8 +9,8 @@ def main(list1):
     list1=[1, 0, 1, 1, 0]
     n = 0
     while n < len(list1):
-        if list1[n] == 1:
-            list1[n] = True
+        if list1[n] == 0:
+            list1[n] = False
         n += 1
     return list1
 print(main(list1=[1, 0, 1, 1, 0]))
