@@ -6,5 +6,11 @@ def main(list1):
     Returns:
         list: return answer
     """
-    
-    return
+    list1=[1, 0, 1, 1, 0]
+    n = 0
+    while n < len(list1):
+        if list1[n] == 1:
+            list1[n] = True
+        n += 1
+    return list1
+print(main(list1=[1, 0, 1, 1, 0]))
